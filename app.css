@@ -1,5 +1,11 @@
 body {
-
+background-color: black;
+}
+header{
+    color: red;
+    text-align: center;
+    
+    
 }
 img {
     position: absolute;
@@ -7,13 +13,14 @@ img {
     height: 40px;
     top: 200px; 
     left: 400px;
+    padding: 50px;
     
 }
 div {
     position: absolute;
     width: 500px;
     height: 500px;
-    
+    margin-left: 25%;
 }
 #rightSide {
     left: 500px;

@@ -8,8 +8,8 @@ const generateFlames = () => {
         let newFlame = document.createElement('img');
         newFlame.src = './image-folder/fire emoji.png';
         
-        const randomTop = Math.floor(Math.random() * 400);
-        const randomLeft = Math.floor(Math.random() * 400);
+        const randomTop = Math.floor(Math.random() * 400) + 1;
+        const randomLeft = Math.floor(Math.random() * 400) + 1;
         newFlame.style.top = randomTop + 'px';
         newFlame.style.left = randomLeft + 'px';
         theLeftSide.appendChild(newFlame);
@@ -20,7 +20,7 @@ const generateFlames = () => {
     } 
         theLeftSide.lastElementChild.addEventListener('click', nextLevel); //adds an event listener for when the user clicks on the extra flame
         document.body.addEventListener('click', gameOver);
-   }
+}
 //function to generate more flames when the user clicks the missing flame
 const nextLevel = (event) => {
     event.stopPropagation();
