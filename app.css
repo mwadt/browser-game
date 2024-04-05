@@ -5,21 +5,20 @@ img {
     position: absolute;
     width: 40px;
     height: 40px;
-    top: 200px; left: 40px
+    top: 200px; 
+    left: 400px;
     
 }
 div {
-    
+    position: absolute;
     width: 500px;
     height: 500px;
     
 }
 #rightSide {
     left: 500px;
-    border-left: 1px solid;
+    border-left: 1px solid red;
+
 }
-#leftSide {
-    margin: 100 100 100 100;
-    left: 500px;
-    border-right: 1px solid;
-}
+
+
